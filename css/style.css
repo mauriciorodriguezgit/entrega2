@@ -1,17 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Ubuntu', sans-serif;
 }
-.titulo{font-family: 'Fredoka One', cursive;}
-.imagenprincipal{
-    
-    background-image: url(../img/Wakanda2.webp);
-    
+
+.titulo {
+    font-family: 'Fredoka One', cursive;
+}
+
+.imagenprincipal {
+
+    background-image: url(../img/South_africa_ocean_night_beach.jpg);
+
     background-size: cover;
-    height:90vh;
-    
+    height: 90vh;
+
+}
+
+.ftnegro {
+    background-color: #000000;
+}
+.cajitas{
+    transition-duration:1s;
+}
+.cajitas:hover{ 
+   transform: scale(1.1);
+}
+div i a {color: antiquewhite; 
+    text-decoration:none;
 }
