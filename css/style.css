@@ -12,22 +12,31 @@
     font-family: 'Fredoka One', cursive;
 }
 
-.imagenprincipal {
+
+.imagenprincipal{
+    min-height: 100vh;
 
     background-image: url(../img/South_africa_ocean_night_beach.jpg);
 
     background-size: cover;
-    height: 90vh;
 
+    background-position:center center
 }
+.headertexto{background-color: #5c778a;}
+
+
 
 .ftnegro {
     background-color: #000000;
 }
-.cajitas{
-    transition-duration:1s;
-}
-.cajitas:hover{ 
-   transform: scale(1.1);
+
+.cajitas {
+    transition-duration: 1s;
 }
 
+.cajitas:hover {
+    transform: scale(1.1);
+}
+.informacion{
+    text-align: center;
+}
