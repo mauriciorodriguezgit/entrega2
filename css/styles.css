@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lilita+One&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.cajitas {
+  transition-duration: 1s;
+}
+.cajitas:hover {
+  transform: scale(1.1);
+}
+
+.ftnegro {
+  background-color: #0a0909;
+}
+
+.imagenprincipal {
+  min-height: 100vh;
+  background-image: url(../img/South-africa-ocean-night-beach.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+.imagenprincipal.titulo {
+  font-family: "Fredoka One", cursive;
+}
+
+.letravieja {
+  font-family: "Lilita One", cursive;
+}
+
+.informacion {
+  text-align: center;
+}
+.informacion .letravieja {
+  font-family: "Lilita One", cursive;
+}
+
+/*# sourceMappingURL=styles.css.map */
