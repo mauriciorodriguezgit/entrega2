@@ -18,3 +18,8 @@
         grid-row: span 2;
     }
 }
+body{background: #616161;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #9bc5c3, #616161);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #9bc5c3, #616161); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    }
